@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/cadastro.css">
+    <link rel="stylesheet" type="text/css" href="/css/responsivo-cadastro.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap');
+    </style>
+    <title>Cadastre-se já</title>
+</head>
+<body>
+    <main class="corpo">
+        <section class="conteiner">
+            <img src="/img/fundo-login.jpg" alt="sorvete">
+        </section>
+        <section class="form">
+           <form action="#">
+                <div class="header">
+                    <h1>Cadastre-se</h1>
+
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="digite seu nome completo" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">e-mail</label>
+                        <input id="email" type="email" name="email" placeholder="digite seu email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="username">username</label>
+                        <input id="username" type="number" name="numero" placeholder="digite o número da sua rua" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="senha">senha</label>
+                        <input id="senha" type="password" name="senha" placeholder="digite uma senha" required>
+                    </div>
+
+                    <div class="gen-inputs">
+                        <div class="gen-title">
+                            <h2>gênero</h2>
+                        </div>
+                        <div class="gen-group">
+                            <div class="gen-input">
+                                <input type="radio" id="female" name="gender">
+                                <label for="female">feminino</label>
+                            </div>
+                            <div class="gen-input">
+                                <input type="radio" id="male" name="gender">
+                                <label for="male">masculino</label>
+                            </div>
+                            <div class="gen-input">
+                                <input type="radio" id="others" name="gender">
+                                <label for="others">outros</label>
+                            </div>
+                            <div class="gen-input">
+                                <input type="radio" id="none" name="gender">
+                                <label for="none">prefiro não dizer</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header">
+                        <h1>endereço</h1>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="bairro">bairro</label>
+                            <input id="bairro" type="text" name="bairro" placeholder="digite seu bairro" required>
+                        
+
+                    <div class="input-box">
+                        <label for="numero">número da rua</label>
+                        <input id="numero" type="number" name="numero" placeholder="digite o número da sua rua" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="logradouro">logradouro</label>
+                        <input id="logradouro" type="text" name="logradouro" placeholder="digite o logradouro" required>
+                    </div>
+                </div>
+                </div>
+
+                <div class="bnt">
+                    <button><a href="#">enviar</a></button>
+                </div>
+            </form>
+
+        </section>
+    </main>
+    
+</body>
