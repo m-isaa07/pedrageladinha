@@ -296,6 +296,18 @@ footer {
      border-radius: 0px 0px 10px 10px;
 }
 
-.rodape {
-    
+.rodape section h3 {
+    margin-left: 30px;
+    margin-top: 30px ;
+
+} 
+
+.rodape section h4 {
+    margin-left: 30px;
+    margin-top: 25px ;
+}
+.rodape section h5 {
+    margin-left: 30px;
+    margin-top: 20px ;
+
 } 
